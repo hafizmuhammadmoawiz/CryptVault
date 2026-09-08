@@ -1,0 +1,26 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment / secrets
+.env
+
+# Runtime-generated data (recreated automatically when the app runs)
+database/database.db
+vault/*
+backups/*
+!vault/.gitkeep
+!backups/.gitkeep
+
+# OTP / session temp files (created at runtime, contain live user data)
+temp_otp.json
+forgot_otp.json
+current_user.txt
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
