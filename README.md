@@ -64,47 +64,33 @@ CryptVault takes a simpler, zero-trust approach: **it encrypts the file and give
 
 ## 📸 Screenshots
 
-### 🔐 Login
-![Login](./screenshots/login_Page.jpg)
+![Login](./SS/login_Page.jpg)
 
-### 📝 Register
-![Register](./screenshots/Register_Page.jpg)
+![Register](./SS/Register_Page.jpg)
 
-### 📧 Email OTP Verification
-![Email OTP Verification](./screenshots/Registration_OTP.jpg)
+![Email OTP Verification](./SS/Registration_OTP.jpg)
 
-### ✉️ OTP Email
-![OTP Email](./screenshots/OTP_Email.jpg)
+![OTP Email](./SS/OTP_Email.jpg)
 
-### 🔑 Forgot Password
-![Forgot Password](./screenshots/Forgot_Page.jpg)
+![Forgot Password](./SS/Forgot_Page.jpg)
 
-### 🖥️ User Dashboard
-![User Dashboard](./screenshots/User_Dashboard.jpg)
+![User Dashboard](./SS/User_Dashboard.jpg)
 
-### 🔒 Encrypt a File
-![Encrypt a File](./screenshots/Encryption_Page.jpg)
+![Encrypt a File](./SS/Encryption_Page.jpg)
 
-### 🔓 Decrypt a File
-![Decrypt a File](./screenshots/Decryption_Page.jpg)
+![Decrypt a File](./SS/Decryption_Page.jpg)
 
-### 📁 My Files
-![My Files](./screenshots/My_File.jpg)
+![My Files](./SS/My_File.jpg)
 
-### 🛡️ Security Tools Suite
-![Security Tools Suite](./screenshots/Security_Tools.jpg)
+![Security Tools Suite](./SS/Security_Tools.jpg)
 
-### 🔨 Password Attack Simulator
-![Password Attack Simulator](./screenshots/Password_Attack_Simulation.jpg)
+![Password Attack Simulator](./SS/Password_Attack_Simulation.jpg)
 
-### 🔐 Password Generator
-![Password Generator](./screenshots/Password_Generator.jpg)
+![Password Generator](./SS/Password_Generator.jpg)
 
-### 🧬 File Integrity Verifier
-![File Integrity Verifier](./screenshots/File_Integrity.jpg)
+![File Integrity Verifier](./SS/File_Integrity.jpg)
 
-### 🔍 Hash Identifier
-![Hash Identifier](./screenshots/HASH_Identifier.jpg)
+![Hash Identifier](./SS/HASH_Identifier.jpg)
 
 ## 🛠 Tech Stack
 
