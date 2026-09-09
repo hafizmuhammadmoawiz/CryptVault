@@ -66,7 +66,7 @@ CryptVault takes a simpler, zero-trust approach: **it encrypts the file and give
 
 <table>
 <tr>
-<td width="50%" align="center"><b>Login</b><br><img src="screenshots/login.png" width="100%"></td>
+<td width="50%" align="center"><b>Login</b><br><img src="screenshots/login page.png" width="100%"></td>
 <td width="50%" align="center"><b>Register</b><br><img src="screenshots/register.png" width="100%"></td>
 </tr>
 <tr>
