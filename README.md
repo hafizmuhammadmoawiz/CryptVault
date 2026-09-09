@@ -62,36 +62,37 @@ CryptVault takes a simpler, zero-trust approach: **it encrypts the file and give
 - 🧬 **File Integrity Verifier** — generate and verify SHA-256 hashes to detect if a file has been altered
 - 🔍 **Hash Identifier** — detects the algorithm behind a hash string (MD5, SHA-1, SHA-256, SHA-512)
 
-
 ## 📸 Screenshots
 
-| **Login**                                                                                                                  | **Register**                                                                                                                  |
-| -------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
-| <img src="https://raw.githubusercontent.com/hafizmuhammadmoawiz/CryptVault/master/screenshots/login_Page.png" width="400"> | <img src="https://raw.githubusercontent.com/hafizmuhammadmoawiz/CryptVault/master/screenshots/Register_Page.png" width="400"> |
+| **Login** | **Register** |
+|---|---|
+| <img src="https://github.com/hafizmuhammadmoawiz/CryptVault/blob/master/screenshots/login_Page.png?raw=true" width="400"> | <img src="https://github.com/hafizmuhammadmoawiz/CryptVault/blob/master/screenshots/Register_Page.png?raw=true" width="400"> |
 
 | **Email OTP Verification** | **OTP Email** |
 |---|---|
-| <img src="https://raw.githubusercontent.com/hafizmuhammadmoawiz/CryptVault/master/screenshots/Registration_OTP.png" width="400"> | <img src="https://raw.githubusercontent.com/hafizmuhammadmoawiz/CryptVault/master/screenshots/OTP_Email.png" width="400"> |
+| <img src="https://github.com/hafizmuhammadmoawiz/CryptVault/blob/master/screenshots/Registration_OTP.png?raw=true" width="400"> | <img src="https://github.com/hafizmuhammadmoawiz/CryptVault/blob/master/screenshots/OTP_Email.png?raw=true" width="400"> |
 
 | **Forgot Password** | **User Dashboard** |
 |---|---|
-| <img src="https://raw.githubusercontent.com/hafizmuhammadmoawiz/CryptVault/master/screenshots/Forgot_Page.png" width="400"> | <img src="https://raw.githubusercontent.com/hafizmuhammadmoawiz/CryptVault/master/screenshots/User_Dashboard.png" width="400"> |
+| <img src="https://github.com/hafizmuhammadmoawiz/CryptVault/blob/master/screenshots/Forgot_Page.png?raw=true" width="400"> | <img src="https://github.com/hafizmuhammadmoawiz/CryptVault/blob/master/screenshots/User_Dashboard.png?raw=true" width="400"> |
 
 | **Encrypt a File** | **Decrypt a File** |
 |---|---|
-| <img src="https://raw.githubusercontent.com/hafizmuhammadmoawiz/CryptVault/master/screenshots/Encryption_Page.png" width="400"> | <img src="https://raw.githubusercontent.com/hafizmuhammadmoawiz/CryptVault/master/screenshots/Decryption_Page.png" width="400"> |
+| <img src="https://github.com/hafizmuhammadmoawiz/CryptVault/blob/master/screenshots/Encryption_Page.png?raw=true" width="400"> | <img src="https://github.com/hafizmuhammadmoawiz/CryptVault/blob/master/screenshots/Decryption_Page.png?raw=true" width="400"> |
 
 | **My Files** | **Security Tools Suite** |
 |---|---|
-| <img src="https://raw.githubusercontent.com/hafizmuhammadmoawiz/CryptVault/master/screenshots/My_File.png" width="400"> | <img src="https://raw.githubusercontent.com/hafizmuhammadmoawiz/CryptVault/master/screenshots/Security_Tools.png" width="400"> |
+| <img src="https://github.com/hafizmuhammadmoawiz/CryptVault/blob/master/screenshots/My_File.png?raw=true" width="400"> | <img src="https://github.com/hafizmuhammadmoawiz/CryptVault/blob/master/screenshots/Security_Tools.png?raw=true" width="400"> |
 
 | **Password Attack Simulator** | **Password Generator** |
 |---|---|
-| <img src="https://raw.githubusercontent.com/hafizmuhammadmoawiz/CryptVault/master/screenshots/Password_Attack_Simulation.png" width="400"> | <img src="https://raw.githubusercontent.com/hafizmuhammadmoawiz/CryptVault/master/screenshots/Password_Generator.png" width="400"> |
+| <img src="https://github.com/hafizmuhammadmoawiz/CryptVault/blob/master/screenshots/Password_Attack_Simulation.png?raw=true" width="400"> | <img src="https://github.com/hafizmuhammadmoawiz/CryptVault/blob/master/screenshots/Password_Generator.png?raw=true" width="400"> |
 
 | **File Integrity Verifier** | **Hash Identifier** |
 |---|---|
-| <img src="https://raw.githubusercontent.com/hafizmuhammadmoawiz/CryptVault/master/screenshots/File_Integrity.png" width="400"> | <img src="https://raw.githubusercontent.com/hafizmuhammadmoawiz/CryptVault/master/screenshots/HASH_Identifier.png" width="400"> |
+| <img src="https://github.com/hafizmuhammadmoawiz/CryptVault/blob/master/screenshots/File_Integrity.png?raw=true" width="400"> | <img src="https://github.com/hafizmuhammadmoawiz/CryptVault/blob/master/screenshots/HASH_Identifier.png?raw=true" width="400"> |
+
+
 ## 🛠 Tech Stack
 
 | Layer                | Technology                                          |
