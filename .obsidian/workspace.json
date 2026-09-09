@@ -190,17 +190,17 @@
   },
   "active": "9089288c8a9cb23c",
   "lastOpenFiles": [
-    "screenshots/File_Integrity.png",
+    "screenshots/Password_Generator.png",
+    "screenshots/My_File.png",
+    "screenshots/Decryption_Page.png",
+    "screenshots/Encryption_Page.png",
+    "screenshots/Forgot_Page.png",
+    "screenshots/login_Page.png",
+    "screenshots/Register_Page.png",
     "README.md",
+    "screenshots/File_Integrity.png",
     "screenshots/User_Dashboard.png",
     "screenshots/Security_Tools.png",
-    "screenshots/Registration_OTP.png",
-    "screenshots/Register_Page.png",
-    "screenshots/Password_Generator.png",
-    "screenshots/Password_Attack_Simulation.png",
-    "screenshots/OTP_Email.png",
-    "screenshots/My_File.png",
-    "screenshots/login_Page.png",
-    "screenshots/HASH_Identifier.png"
+    "screenshots/Registration_OTP.png"
   ]
 }

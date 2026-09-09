@@ -64,14 +64,14 @@ CryptVault takes a simpler, zero-trust approach: **it encrypts the file and give
 
 ## 📸 Screenshots
 
-| **Login**<br>![Login\|256](screenshots/login_Page.png)                                                    | **Register**<br>![Register\|254](screenshots/Register_Page.png)                     |
+| **Login**<br>![Login](screenshots/login_Page.png)                                                         | **Register**<br>![Register](screenshots/Register_Page.png)                          |
 | --------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
-| **Email OTP Verification**<br>![Email OTP Verification](screenshots/Registration_otp.png)                 | **OTP Email**<br>![OTP Email](screenshots/otp_email.png)                            |
-| **Forgot Password**<br>![Forgot Password\|324](screenshots/Forgot_Page.png)                               | **User Dashboard**<br>![User Dashboard\|249](screenshots/user_dashboard.png)        |
-| **Encrypt a File**<br>![Encrypt a File\|305](screenshots/Encryption_Page.png)                             | **Decrypt a File**<br>![Decrypt a File\|221](screenshots/Decryption_Page.png)       |
-| **My Files**<br>![My Files](screenshots/My_File.png)                                                      | **Security Tools Suite**<br>![Security Tools Suite](screenshots/security_tools.png) |
-| **Password Attack Simulator**<br>![Password Attack Simulator](screenshots/Password_Attack_Simulation.png) | **Password Generator**<br>![Password Generator](screenshots/password_generator.png) |
-| **File Integrity Verifier**<br>![File Integrity Verifier](screenshots/File_Integrity.png)                 | **Hash Identifier**<br>![Hash Identifier](screenshots/hash_identifier.png)          |
+| **Email OTP Verification**<br>![Email OTP Verification](screenshots/Registration_OTP.png)                 | **OTP Email**<br>![OTP Email](screenshots/OTP_Email.png)                            |
+| **Forgot Password**<br>![Forgot Password](screenshots/Forgot_Page.png)                                    | **User Dashboard**<br>![User Dashboard](screenshots/User_Dashboard.png)             |
+| **Encrypt a File**<br>![Encrypt a File](screenshots/Encryption_Page.png)                                  | **Decrypt a File**<br>![Decrypt a File](screenshots/Decryption_Page.png)            |
+| **My Files**<br>![My Files](screenshots/My_File.png)                                                      | **Security Tools Suite**<br>![Security Tools Suite](screenshots/Security_Tools.png) |
+| **Password Attack Simulator**<br>![Password Attack Simulator](screenshots/Password_Attack_Simulation.png) | **Password Generator**<br>![Password Generator](screenshots/Password_Generator.png) |
+| **File Integrity Verifier**<br>![File Integrity Verifier](screenshots/File_Integrity.png)                 | **Hash Identifier**<br>![Hash Identifier](screenshots/HASH_Identifier.png)          |
 
 ## 🛠 Tech Stack
 
