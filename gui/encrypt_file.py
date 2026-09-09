@@ -106,7 +106,7 @@ title_label.pack()
 
 subtitle_label = ctk.CTkLabel(
     main_frame,
-    text="Protect your files using AES-256 encryption",
+    text="Protect your files using strong Fernet (AES-128 + HMAC) encryption",
     font=("Segoe UI", 15),
     text_color="#9fbad6",
 )
@@ -471,7 +471,7 @@ back_btn.grid(row=0, column=1, padx=10)
 info_label = ctk.CTkLabel(
     info_card,
     text=(
-        "• AES-256 Encryption          • Unique Key Generated\n\n"
+        "• Fernet Encryption          • Unique Key Generated\n\n"
         "• Save Key Securely             • Keys Cannot Be Recovered"
     ),
     justify="left",

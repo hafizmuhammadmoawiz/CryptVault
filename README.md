@@ -5,7 +5,7 @@
 **A desktop file vault that encrypts your private files and hands the encryption key only to you — not even the app keeps a copy.**
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square&logo=python&logoColor=white)
-![Encryption](https://img.shields.io/badge/Encryption-AES--256-2E7D32?style=flat-square&logo=letsencrypt&logoColor=white)
+![Encryption](https://img.shields.io/badge/Encryption-Fernet-2E7D32?style=flat-square&logo=letsencrypt&logoColor=white)
 ![GUI](https://img.shields.io/badge/GUI-CustomTkinter-1f6feb?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-In%20Development-orange?style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)
@@ -44,7 +44,7 @@ CryptVault takes a simpler, zero-trust approach: **it encrypts the file and give
   Upload a file
         │
         ▼
-  AES-256 encryption runs locally
+  Fernet encryption runs locally (AES-128-CBC + HMAC-SHA256, from Python's `cryptography` library)
         │
         ▼
   Two outputs are created:
@@ -68,7 +68,7 @@ CryptVault takes a simpler, zero-trust approach: **it encrypts the file and give
 - Forgot-password flow, also protected by OTP re-verification
 
 **Core Vault**
-- Per-file AES-256 encryption with a uniquely generated key for every file
+- Per-file encryption (Fernet: AES-128-CBC + HMAC-SHA256 authentication) with a uniquely generated key for every file
 - Decryption requires both the encrypted file **and** its matching key file
 - "My Files" tracker — see each file's original path, encrypted path, key path, size, and encryption status at a glance
 
@@ -82,102 +82,32 @@ CryptVault takes a simpler, zero-trust approach: **it encrypts the file and give
 
 <table>
 <tr>
-<td width="50%">
-
-**Login**
-<img src="screenshots/login.png" alt="Login page">
-
-</td>
-<td width="50%">
-
-**Register**
-<img src="screenshots/register.png" alt="Register page">
-
-</td>
+<td align="center" width="50%"><b>Login</b><br><img src="screenshots/login.png" width="380"></td>
+<td align="center" width="50%"><b>Register</b><br><img src="screenshots/register.png" width="380"></td>
 </tr>
 <tr>
-<td width="50%">
-
-**Email OTP Verification**
-<img src="screenshots/otp_verification.png" alt="OTP verification page">
-
-</td>
-<td width="50%">
-
-**OTP Email**
-<img src="screenshots/otp_email.png" alt="OTP email received">
-
-</td>
+<td align="center" width="50%"><b>Email OTP Verification</b><br><img src="screenshots/otp_verification.png" width="380"></td>
+<td align="center" width="50%"><b>OTP Email</b><br><img src="screenshots/otp_email.png" width="380"></td>
 </tr>
 <tr>
-<td width="50%">
-
-**Forgot Password**
-<img src="screenshots/forgot_password.png" alt="Forgot password page">
-
-</td>
-<td width="50%">
-
-**User Dashboard**
-<img src="screenshots/user_dashboard.png" alt="User dashboard">
-
-</td>
+<td align="center" width="50%"><b>Forgot Password</b><br><img src="screenshots/forgot_password.png" width="380"></td>
+<td align="center" width="50%"><b>User Dashboard</b><br><img src="screenshots/user_dashboard.png" width="380"></td>
 </tr>
 <tr>
-<td width="50%">
-
-**Encrypt a File**
-<img src="screenshots/encrypt_file.png" alt="Encrypt file page">
-
-</td>
-<td width="50%">
-
-**Decrypt a File**
-<img src="screenshots/decrypt_file.png" alt="Decrypt file page">
-
-</td>
+<td align="center" width="50%"><b>Encrypt a File</b><br><img src="screenshots/encrypt_file.png" width="380"></td>
+<td align="center" width="50%"><b>Decrypt a File</b><br><img src="screenshots/decrypt_file.png" width="380"></td>
 </tr>
 <tr>
-<td width="50%">
-
-**My Files**
-<img src="screenshots/my_files.png" alt="My files page">
-
-</td>
-<td width="50%">
-
-**Security Tools Suite**
-<img src="screenshots/security_tools.png" alt="Security tools page">
-
-</td>
+<td align="center" width="50%"><b>My Files</b><br><img src="screenshots/my_files.png" width="380"></td>
+<td align="center" width="50%"><b>Security Tools Suite</b><br><img src="screenshots/security_tools.png" width="380"></td>
 </tr>
 <tr>
-<td width="50%">
-
-**Password Attack Simulator**
-<img src="screenshots/password_attack_simulator.png" alt="Password attack simulator">
-
-</td>
-<td width="50%">
-
-**Password Generator**
-<img src="screenshots/password_generator.png" alt="Password generator">
-
-</td>
+<td align="center" width="50%"><b>Password Attack Simulator</b><br><img src="screenshots/password_attack_simulator.png" width="380"></td>
+<td align="center" width="50%"><b>Password Generator</b><br><img src="screenshots/password_generator.png" width="380"></td>
 </tr>
 <tr>
-<td width="50%">
-
-**File Integrity Verifier**
-<img src="screenshots/file_integrity_verifier.png" alt="File integrity verifier">
-
-</td>
-<td width="50%">
-
-**Hash Identifier**
-<img src="screenshots/hash_identifier.png" alt="Hash identifier">
-
-</td>
+<td align="center" width="50%"><b>File Integrity Verifier</b><br><img src="screenshots/file_integrity_verifier.png" width="380"></td>
+<td align="center" width="50%"><b>Hash Identifier</b><br><img src="screenshots/hash_identifier.png" width="380"></td>
 </tr>
 </table>
 
@@ -187,7 +117,7 @@ CryptVault takes a simpler, zero-trust approach: **it encrypts the file and give
 |---|---|
 | Language | Python 3 |
 | GUI | CustomTkinter |
-| Encryption | `cryptography` (AES-256) |
+| Encryption | `cryptography` (Fernet — AES-128-CBC + HMAC-SHA256) |
 | Password Hashing | `bcrypt` |
 | Database | SQLite |
 | Email / OTP Delivery | `smtplib` |

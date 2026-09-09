@@ -571,7 +571,7 @@ back_btn.grid(row=0, column=1, padx=10)
 info_label = ctk.CTkLabel(
     info_card,
     text=(
-        "• AES-256 Decryption                 • Key Verification\n\n"
+        "• Fernet Decryption                 • Key Verification\n\n"
         "• Restore Original File                • Invalid Keys Rejected"
     ),
     justify="left",
