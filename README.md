@@ -64,34 +64,47 @@ CryptVault takes a simpler, zero-trust approach: **it encrypts the file and give
 
 ## 📸 Screenshots
 
-| **Login** | **Register** |
-|---|---|
-| <img src="https://github.com/hafizmuhammadmoawiz/CryptVault/blob/master/screenshots/login_Page.png?raw=true" width="400"> | <img src="https://github.com/hafizmuhammadmoawiz/CryptVault/blob/master/screenshots/Register_Page.png?raw=true" width="400"> |
+### 🔐 Login
+<img src="https://raw.githubusercontent.com/hafizmuhammadmoawiz/CryptVault/master/screenshots/login_Page.png" width="500">
 
-| **Email OTP Verification** | **OTP Email** |
-|---|---|
-| <img src="https://github.com/hafizmuhammadmoawiz/CryptVault/blob/master/screenshots/Registration_OTP.png?raw=true" width="400"> | <img src="https://github.com/hafizmuhammadmoawiz/CryptVault/blob/master/screenshots/OTP_Email.png?raw=true" width="400"> |
+### 📝 Register
+<img src="https://raw.githubusercontent.com/hafizmuhammadmoawiz/CryptVault/master/screenshots/Register_Page.png" width="500">
 
-| **Forgot Password** | **User Dashboard** |
-|---|---|
-| <img src="https://github.com/hafizmuhammadmoawiz/CryptVault/blob/master/screenshots/Forgot_Page.png?raw=true" width="400"> | <img src="https://github.com/hafizmuhammadmoawiz/CryptVault/blob/master/screenshots/User_Dashboard.png?raw=true" width="400"> |
+### 📧 Email OTP Verification
+<img src="https://raw.githubusercontent.com/hafizmuhammadmoawiz/CryptVault/master/screenshots/Registration_OTP.png" width="500">
 
-| **Encrypt a File** | **Decrypt a File** |
-|---|---|
-| <img src="https://github.com/hafizmuhammadmoawiz/CryptVault/blob/master/screenshots/Encryption_Page.png?raw=true" width="400"> | <img src="https://github.com/hafizmuhammadmoawiz/CryptVault/blob/master/screenshots/Decryption_Page.png?raw=true" width="400"> |
+### ✉️ OTP Email
+<img src="https://raw.githubusercontent.com/hafizmuhammadmoawiz/CryptVault/master/screenshots/OTP_Email.png" width="500">
 
-| **My Files** | **Security Tools Suite** |
-|---|---|
-| <img src="https://github.com/hafizmuhammadmoawiz/CryptVault/blob/master/screenshots/My_File.png?raw=true" width="400"> | <img src="https://github.com/hafizmuhammadmoawiz/CryptVault/blob/master/screenshots/Security_Tools.png?raw=true" width="400"> |
+### 🔑 Forgot Password
+<img src="https://raw.githubusercontent.com/hafizmuhammadmoawiz/CryptVault/master/screenshots/Forgot_Page.png" width="500">
 
-| **Password Attack Simulator** | **Password Generator** |
-|---|---|
-| <img src="https://github.com/hafizmuhammadmoawiz/CryptVault/blob/master/screenshots/Password_Attack_Simulation.png?raw=true" width="400"> | <img src="https://github.com/hafizmuhammadmoawiz/CryptVault/blob/master/screenshots/Password_Generator.png?raw=true" width="400"> |
+### 🖥️ User Dashboard
+<img src="https://raw.githubusercontent.com/hafizmuhammadmoawiz/CryptVault/master/screenshots/User_Dashboard.png" width="500">
 
-| **File Integrity Verifier** | **Hash Identifier** |
-|---|---|
-| <img src="https://github.com/hafizmuhammadmoawiz/CryptVault/blob/master/screenshots/File_Integrity.png?raw=true" width="400"> | <img src="https://github.com/hafizmuhammadmoawiz/CryptVault/blob/master/screenshots/HASH_Identifier.png?raw=true" width="400"> |
+### 🔒 Encrypt a File
+<img src="https://raw.githubusercontent.com/hafizmuhammadmoawiz/CryptVault/master/screenshots/Encryption_Page.png" width="500">
 
+### 🔓 Decrypt a File
+<img src="https://raw.githubusercontent.com/hafizmuhammadmoawiz/CryptVault/master/screenshots/Decryption_Page.png" width="500">
+
+### 📁 My Files
+<img src="https://raw.githubusercontent.com/hafizmuhammadmoawiz/CryptVault/master/screenshots/My_File.png" width="500">
+
+### 🛡️ Security Tools Suite
+<img src="https://raw.githubusercontent.com/hafizmuhammadmoawiz/CryptVault/master/screenshots/Security_Tools.png" width="500">
+
+### 🔨 Password Attack Simulator
+<img src="https://raw.githubusercontent.com/hafizmuhammadmoawiz/CryptVault/master/screenshots/Password_Attack_Simulation.png" width="500">
+
+### 🔐 Password Generator
+<img src="https://raw.githubusercontent.com/hafizmuhammadmoawiz/CryptVault/master/screenshots/Password_Generator.png" width="500">
+
+### 🧬 File Integrity Verifier
+<img src="https://raw.githubusercontent.com/hafizmuhammadmoawiz/CryptVault/master/screenshots/File_Integrity.png" width="500">
+
+### 🔍 Hash Identifier
+<img src="https://raw.githubusercontent.com/hafizmuhammadmoawiz/CryptVault/master/screenshots/HASH_Identifier.png" width="500">
 
 ## 🛠 Tech Stack
 
