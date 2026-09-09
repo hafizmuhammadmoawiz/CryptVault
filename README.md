@@ -64,61 +64,36 @@ CryptVault takes a simpler, zero-trust approach: **it encrypts the file and give
 
 ## 📸 Screenshots
 
-**Login**
-
-![Login page](screenshots/login.png)
-
-**Register**
-
-![Register page](screenshots/register.png)
-
-**Email OTP Verification**
-
-![OTP verification page](screenshots/otp_verification.png)
-
-**OTP Email**
-
-![OTP email received](screenshots/otp_email.png)
-
-**Forgot Password**
-
-![Forgot password page](screenshots/forgot_password.png)
-
-**User Dashboard**
-
-![User dashboard](screenshots/user_dashboard.png)
-
-**Encrypt a File**
-
-![Encrypt file page](screenshots/encrypt_file.png)
-
-**Decrypt a File**
-
-![Decrypt file page](screenshots/decrypt_file.png)
-
-**My Files**
-
-![My files page](screenshots/my_files.png)
-
-**Security Tools Suite**
-
-![Security tools page](screenshots/security_tools.png)
-
-**Password Attack Simulator**
-
-![Password attack simulator](screenshots/password_attack_simulator.png)
-
-**Password Generator**
-
-![Password generator](screenshots/password_generator.png)
-
-**File Integrity Verifier**
-
-![File integrity verifier](screenshots/file_integrity_verifier.png)
-
-**Hash Identifier**
-
-![Hash identifier](screenshots/hash_identifier.png)
+<table>
+<tr>
+<td width="50%" align="center"><b>Login</b><br><img src="screenshots/login.png" width="100%"></td>
+<td width="50%" align="center"><b>Register</b><br><img src="screenshots/register.png" width="100%"></td>
+</tr>
+<tr>
+<td width="50%" align="center"><b>Email OTP Verification</b><br><img src="screenshots/otp_verification.png" width="100%"></td>
+<td width="50%" align="center"><b>OTP Email</b><br><img src="screenshots/otp_email.png" width="100%"></td>
+</tr>
+<tr>
+<td width="50%" align="center"><b>Forgot Password</b><br><img src="screenshots/forgot_password.png" width="100%"></td>
+<td width="50%" align="center"><b>User Dashboard</b><br><img src="screenshots/user_dashboard.png" width="100%"></td>
+</tr>
+<tr>
+<td width="50%" align="center"><b>Encrypt a File</b><br><img src="screenshots/encrypt_file.png" width="100%"></td>
+<td width="50%" align="center"><b>Decrypt a File</b><br><img src="screenshots/decrypt_file.png" width="100%"></td>
+</tr>
+<tr>
+<td width="50%" align="center"><b>My Files</b><br><img src="screenshots/my_files.png" width="100%"></td>
+<td width="50%" align="center"><b>Security Tools Suite</b><br><img src="screenshots/security_tools.png" width="100%"></td>
+</tr>
+<tr>
+<td width="50%" align="center"><b>Password Attack Simulator</b><br><img src="screenshots/password_attack_simulator.png" width="100%"></td>
+<td width="50%" align="center"><b>Password Generator</b><br><img src="screenshots/password_generator.png" width="100%"></td>
+</tr>
+<tr>
+<td width="50%" align="center"><b>File Integrity Verifier</b><br><img src="screenshots/file_integrity_verifier.png" width="100%"></td>
+<td width="50%" align="center"><b>Hash Identifier</b><br><img src="screenshots/hash_identifier.png" width="100%"></td>
+</tr>
+</table>
 
 ## 🛠 Tech Stack
 
