@@ -63,15 +63,86 @@ CryptVault takes a simpler, zero-trust approach: **it encrypts the file and give
 - 🔍 **Hash Identifier** — detects the algorithm behind a hash string (MD5, SHA-1, SHA-256, SHA-512)
 
 ## 📸 Screenshots
+## 📸 Screenshots
 
-| **Login**<br>![Login](screenshots/login_Page.png)                                                         | **Register**<br>![Register](screenshots/Register_Page.png)                          |
-| --------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
-| **Email OTP Verification**<br>![Email OTP Verification](screenshots/Registration_OTP.png)                 | **OTP Email**<br>![OTP Email](screenshots/OTP_Email.png)                            |
-| **Forgot Password**<br>![Forgot Password](screenshots/Forgot_Page.png)                                    | **User Dashboard**<br>![User Dashboard](screenshots/User_Dashboard.png)             |
-| **Encrypt a File**<br>![Encrypt a File](screenshots/Encryption_Page.png)                                  | **Decrypt a File**<br>![Decrypt a File](screenshots/Decryption_Page.png)            |
-| **My Files**<br>![My Files](screenshots/My_File.png)                                                      | **Security Tools Suite**<br>![Security Tools Suite](screenshots/Security_Tools.png) |
-| **Password Attack Simulator**<br>![Password Attack Simulator](screenshots/Password_Attack_Simulation.png) | **Password Generator**<br>![Password Generator](screenshots/Password_Generator.png) |
-| **File Integrity Verifier**<br>![File Integrity Verifier](screenshots/File_Integrity.png)                 | **Hash Identifier**<br>![Hash Identifier](screenshots/HASH_Identifier.png)          |
+<table>
+<tr>
+<td align="center">
+<b>Login</b><br>
+<img src="screenshots/login_Page.png" width="400">
+</td>
+<td align="center">
+<b>Register</b><br>
+<img src="screenshots/Register_Page.png" width="400">
+</td>
+</tr>
+
+<tr>
+<td align="center">
+<b>Email OTP Verification</b><br>
+<img src="screenshots/Registration_OTP.png" width="400">
+</td>
+<td align="center">
+<b>OTP Email</b><br>
+<img src="screenshots/OTP_Email.png" width="400">
+</td>
+</tr>
+
+<tr>
+<td align="center">
+<b>Forgot Password</b><br>
+<img src="screenshots/Forgot_Page.png" width="400">
+</td>
+<td align="center">
+<b>User Dashboard</b><br>
+<img src="screenshots/User_Dashboard.png" width="400">
+</td>
+</tr>
+
+<tr>
+<td align="center">
+<b>Encrypt a File</b><br>
+<img src="screenshots/Encryption_Page.png" width="400">
+</td>
+<td align="center">
+<b>Decrypt a File</b><br>
+<img src="screenshots/Decryption_Page.png" width="400">
+</td>
+</tr>
+
+<tr>
+<td align="center">
+<b>My Files</b><br>
+<img src="screenshots/My_File.png" width="400">
+</td>
+<td align="center">
+<b>Security Tools Suite</b><br>
+<img src="screenshots/Security_Tools.png" width="400">
+</td>
+</tr>
+
+<tr>
+<td align="center">
+<b>Password Attack Simulator</b><br>
+<img src="screenshots/Password_Attack_Simulation.png" width="400">
+</td>
+<td align="center">
+<b>Password Generator</b><br>
+<img src="screenshots/Password_Generator.png" width="400">
+</td>
+</tr>
+
+<tr>
+<td align="center">
+<b>File Integrity Verifier</b><br>
+<img src="screenshots/File_Integrity.png" width="400">
+</td>
+<td align="center">
+<b>Hash Identifier</b><br>
+<img src="screenshots/HASH_Identifier.png" width="400">
+</td>
+</tr>
+</table>
 
 ## 🛠 Tech Stack
 
