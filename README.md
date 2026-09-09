@@ -1,81 +1,257 @@
-# CryptVault
+<div align="center">
 
-CryptVault is a desktop application (built with Python and CustomTkinter) for securely storing private files. Instead of keeping your sensitive documents in plain form, CryptVault encrypts every file you upload and gives you back an encryption key — the file itself is never stored in a readable form, and not even the app/database keeps a copy of your key.
+# 🔐 CryptVault
 
-## How It Works
+**A desktop file vault that encrypts your private files and hands the encryption key only to you — not even the app keeps a copy.**
 
-1. **Register / Login** — Create an account or log in. Registration and password recovery are protected with email OTP (One-Time Password) verification.
-2. **Upload a File** — From your dashboard, upload any file you want to protect.
-3. **Encryption** — CryptVault encrypts the file using the `cryptography` library and generates a unique key for it.
-4. **You Keep the Key** — The generated `.key` file (paired with the encrypted `.enc` file) is given to you to store safely (e.g. on a USB drive, password manager, etc.). CryptVault does not retain a usable copy of your key.
-5. **Retrieve Later** — To get your original file back, provide both the `.enc` file and its matching `.key` file, and CryptVault decrypts it back to the original.
+![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square&logo=python&logoColor=white)
+![Encryption](https://img.shields.io/badge/Encryption-AES--256-2E7D32?style=flat-square&logo=letsencrypt&logoColor=white)
+![GUI](https://img.shields.io/badge/GUI-CustomTkinter-1f6feb?style=flat-square)
+![Status](https://img.shields.io/badge/Status-In%20Development-orange?style=flat-square)
+![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)
 
-This design means that even someone with full access to the server/database cannot read your files without the key that only you hold.
+</div>
 
-## Features
+> ⚠️ **Project Status:** CryptVault is a work in progress, not a finished product. The core vault (register/login, OTP verification, file encryption & decryption, and the security tools) is functional and shown below. It's being built alongside an internship, so development is currently paused while that takes priority — more features (like the Admin dashboard) are planned as work continues.
 
-- User registration, login, and OTP-based email verification
-- Forgot-password flow with OTP re-verification
-- File encryption and decryption with per-file keys
-- User dashboard (upload, view, manage your own encrypted files)
-- Admin dashboard (user/account oversight)
-- File integrity verification
-- Extra security utilities: password generator, hash identifier, password-strength/attack simulation tools
+---
 
-## Tech Stack
+## 📖 Table of Contents
 
-- **Python 3**
-- **CustomTkinter** — desktop GUI
-- **cryptography** — file encryption/decryption
-- **bcrypt** — password hashing
-- **SQLite** — local database (users, files, logs, security events)
-- **smtplib** — OTP delivery via email
+- [Why CryptVault?](#-why-cryptvault)
+- [How It Works](#-how-it-works)
+- [Features](#-features)
+- [Screenshots](#-screenshots)
+- [Tech Stack](#-tech-stack)
+- [Project Structure](#-project-structure)
+- [Getting Started](#-getting-started)
+- [Security Notes](#-security-notes)
+- [Roadmap](#-roadmap)
+- [Disclaimer](#-disclaimer)
+- [License](#-license)
 
-## Project Structure
+---
+
+## 🎯 Why CryptVault?
+
+We all have files — documents, IDs, personal photos — that we'd rather no one else could open, even if our computer or an online backup were ever compromised. Most "secure storage" tools still trust *someone else* (the app, the vendor, the cloud) to hold the key that can unlock your data.
+
+CryptVault takes a simpler, zero-trust approach: **it encrypts the file and gives the key to you, and only you.** The app itself never stores a usable copy of it. Lose the key, and neither CryptVault nor anyone else can open the file — which is exactly the point.
+
+## 🔄 How It Works
+
+```
+  Upload a file
+        │
+        ▼
+  AES-256 encryption runs locally
+        │
+        ▼
+  Two outputs are created:
+   • file.enc   → the encrypted file (safe to store anywhere)
+   • file.key   → the one and only key that can unlock it
+        │
+        ▼
+  You save file.key yourself (USB, password manager, etc.)
+  CryptVault does NOT keep a copy.
+        │
+        ▼
+  To get your file back later:
+  provide both file.enc + file.key → CryptVault decrypts it
+```
+
+## ✨ Features
+
+**Authentication & Account Security**
+- Register / Login with client-side password strength checks (length, upper/lower case, number, special character)
+- Email OTP (One-Time Password) verification on registration, with expiry
+- Forgot-password flow, also protected by OTP re-verification
+
+**Core Vault**
+- Per-file AES-256 encryption with a uniquely generated key for every file
+- Decryption requires both the encrypted file **and** its matching key file
+- "My Files" tracker — see each file's original path, encrypted path, key path, size, and encryption status at a glance
+
+**Built-in Security Tools**
+- 🔑 **Password Generator** — customizable length & character sets, with entropy shown
+- 🛡️ **Password Attack Simulator** — estimates brute-force time and checks resistance to dictionary/hybrid attacks
+- 🧬 **File Integrity Verifier** — generate and verify SHA-256 hashes to detect if a file has been altered
+- 🔍 **Hash Identifier** — detects the algorithm behind a hash string (MD5, SHA-1, SHA-256, SHA-512)
+
+## 📸 Screenshots
+
+<table>
+<tr>
+<td width="50%">
+
+**Login**
+<img src="screenshots/login.png" alt="Login page">
+
+</td>
+<td width="50%">
+
+**Register**
+<img src="screenshots/register.png" alt="Register page">
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+**Email OTP Verification**
+<img src="screenshots/otp_verification.png" alt="OTP verification page">
+
+</td>
+<td width="50%">
+
+**OTP Email**
+<img src="screenshots/otp_email.png" alt="OTP email received">
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+**Forgot Password**
+<img src="screenshots/forgot_password.png" alt="Forgot password page">
+
+</td>
+<td width="50%">
+
+**User Dashboard**
+<img src="screenshots/user_dashboard.png" alt="User dashboard">
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+**Encrypt a File**
+<img src="screenshots/encrypt_file.png" alt="Encrypt file page">
+
+</td>
+<td width="50%">
+
+**Decrypt a File**
+<img src="screenshots/decrypt_file.png" alt="Decrypt file page">
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+**My Files**
+<img src="screenshots/my_files.png" alt="My files page">
+
+</td>
+<td width="50%">
+
+**Security Tools Suite**
+<img src="screenshots/security_tools.png" alt="Security tools page">
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+**Password Attack Simulator**
+<img src="screenshots/password_attack_simulator.png" alt="Password attack simulator">
+
+</td>
+<td width="50%">
+
+**Password Generator**
+<img src="screenshots/password_generator.png" alt="Password generator">
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+**File Integrity Verifier**
+<img src="screenshots/file_integrity_verifier.png" alt="File integrity verifier">
+
+</td>
+<td width="50%">
+
+**Hash Identifier**
+<img src="screenshots/hash_identifier.png" alt="Hash identifier">
+
+</td>
+</tr>
+</table>
+
+## 🛠 Tech Stack
+
+| Layer | Technology |
+|---|---|
+| Language | Python 3 |
+| GUI | CustomTkinter |
+| Encryption | `cryptography` (AES-256) |
+| Password Hashing | `bcrypt` |
+| Database | SQLite |
+| Email / OTP Delivery | `smtplib` |
+
+## 📂 Project Structure
 
 ```
 SecureVaultFile/
 ├── main.py                  # Entry point
 ├── core/                    # Authentication and OTP logic
-├── gui/                     # All application screens (login, dashboards, tools, etc.)
+├── gui/                     # All application screens
 ├── database/                # SQLite database + database manager
 ├── assets/                  # Images/icons used by the GUI
+├── screenshots/             # README screenshots
 ├── vault/                   # Encrypted files land here at runtime
 ├── backups/                 # Backup storage used at runtime
+├── .env.example             # Template for required environment variables
 └── requirements.txt
 ```
 
-## Setup
+## 🚀 Getting Started
 
-1. Clone the repository and move into the project folder:
-   ```
-   git clone <your-repo-url>
-   cd SecureVaultFile
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/<your-username>/CryptVault.git
+   cd CryptVault
    ```
 
-2. Install dependencies:
-   ```
+2. **Install dependencies**
+   ```bash
    pip install -r requirements.txt
    ```
 
-3. Configure email OTP sending. Copy `.env.example` to `.env` and fill in a Gmail address plus a Gmail **App Password** (not your normal password — generate one at https://myaccount.google.com/apppasswords):
-   ```
+3. **Configure email OTP delivery**
+
+   Copy the example environment file and fill in your own credentials:
+   ```bash
    cp .env.example .env
    ```
+   You'll need a Gmail address and a Gmail **App Password** (not your normal password) — generate one at [myaccount.google.com/apppasswords](https://myaccount.google.com/apppasswords).
 
-4. Run the app from the project's root folder:
-   ```
+4. **Run the app**
+   ```bash
    python main.py
    ```
-
    The SQLite database is created automatically on first run.
 
-## Security Notes
+## 🔒 Security Notes
 
-- Passwords are never stored in plain text — they are hashed with `bcrypt` before being saved.
-- SMTP credentials for sending OTP emails are read from environment variables (`.env`), never hardcoded in source.
-- Encryption keys are handed to the user and are not retained anywhere else in the system — losing your `.key` file means the encrypted file cannot be recovered.
+- Passwords are **never** stored in plain text — they're hashed with `bcrypt`.
+- SMTP credentials are read from environment variables via `.env`, never hardcoded in source.
+- Encryption keys are handed to the user and are **not** retained anywhere else — there is no "reset my key" option, by design.
 
-## Disclaimer
+## 🗺 Roadmap
 
-This project was built as a learning/portfolio project to practice applied cryptography, secure authentication flows, and desktop application development. It has not undergone a professional security audit and should not be used to protect real sensitive data in production without further review.
+- [ ] Complete the Admin dashboard
+- [ ] 2FA (TOTP) support — schema already in place in the database
+- [ ] Packaged executable (no Python install required)
+- [ ] Automated tests for the encryption/decryption core
+
+## ⚠️ Disclaimer
+
+CryptVault is a personal learning/portfolio project built to practice applied cryptography, secure authentication flows, and desktop app development. It is **still under active development** and has not undergone a professional security audit — it should not be relied on to protect real sensitive data in production.
+
+## 📄 License
+
+Licensed under the [MIT License](LICENSE).
