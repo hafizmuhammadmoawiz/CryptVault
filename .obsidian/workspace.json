@@ -189,5 +189,17 @@
     }
   },
   "active": "9089288c8a9cb23c",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "screenshots/User_Dashboard.png",
+    "screenshots/Security_Tools.png",
+    "screenshots/Registration_OTP.png",
+    "screenshots/Register_Page.png",
+    "screenshots/Password_Generator.png",
+    "screenshots/Password_Attack_Simulation.png",
+    "screenshots/OTP_Email.png",
+    "screenshots/My_File.png",
+    "screenshots/login_Page.png",
+    "screenshots/HASH_Identifier.png",
+    "screenshots/Forgot_Page.png"
+  ]
 }
