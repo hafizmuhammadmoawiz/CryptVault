@@ -1,5 +1,3 @@
-<div align="center">
-
 # 🔐 CryptVault
 
 **A desktop file vault that encrypts your private files and hands the encryption key only to you — not even the app keeps a copy.**
@@ -9,8 +7,6 @@
 ![GUI](https://img.shields.io/badge/GUI-CustomTkinter-1f6feb?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-In%20Development-orange?style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)
-
-</div>
 
 > ⚠️ **Project Status:** CryptVault is a work in progress, not a finished product. The core vault (register/login, OTP verification, file encryption & decryption, and the security tools) is functional and shown below. It's being built alongside an internship, so development is currently paused while that takes priority — more features (like the Admin dashboard) are planned as work continues.
 
@@ -40,25 +36,13 @@ CryptVault takes a simpler, zero-trust approach: **it encrypts the file and give
 
 ## 🔄 How It Works
 
-```
-  Upload a file
-        │
-        ▼
-  Fernet encryption runs locally (AES-128-CBC + HMAC-SHA256, from Python's `cryptography` library)
-        │
-        ▼
-  Two outputs are created:
-   • file.enc   → the encrypted file (safe to store anywhere)
-   • file.key   → the one and only key that can unlock it
-        │
-        ▼
-  You save file.key yourself (USB, password manager, etc.)
-  CryptVault does NOT keep a copy.
-        │
-        ▼
-  To get your file back later:
-  provide both file.enc + file.key → CryptVault decrypts it
-```
+1. **Upload a file** from your dashboard.
+2. **Fernet encryption runs locally** (AES-128-CBC + HMAC-SHA256, from Python's `cryptography` library).
+3. Two outputs are created:
+   - `file.enc` — the encrypted file (safe to store anywhere)
+   - `file.key` — the one and only key that can unlock it
+4. **You save `file.key` yourself** (USB drive, password manager, etc.) — CryptVault does **not** keep a copy.
+5. To get your file back later, provide both `file.enc` and `file.key` — CryptVault decrypts it back to the original.
 
 ## ✨ Features
 
@@ -80,36 +64,61 @@ CryptVault takes a simpler, zero-trust approach: **it encrypts the file and give
 
 ## 📸 Screenshots
 
-<table>
-<tr>
-<td align="center" width="50%"><b>Login</b><br><img src="screenshots/login.png" width="380"></td>
-<td align="center" width="50%"><b>Register</b><br><img src="screenshots/register.png" width="380"></td>
-</tr>
-<tr>
-<td align="center" width="50%"><b>Email OTP Verification</b><br><img src="screenshots/otp_verification.png" width="380"></td>
-<td align="center" width="50%"><b>OTP Email</b><br><img src="screenshots/otp_email.png" width="380"></td>
-</tr>
-<tr>
-<td align="center" width="50%"><b>Forgot Password</b><br><img src="screenshots/forgot_password.png" width="380"></td>
-<td align="center" width="50%"><b>User Dashboard</b><br><img src="screenshots/user_dashboard.png" width="380"></td>
-</tr>
-<tr>
-<td align="center" width="50%"><b>Encrypt a File</b><br><img src="screenshots/encrypt_file.png" width="380"></td>
-<td align="center" width="50%"><b>Decrypt a File</b><br><img src="screenshots/decrypt_file.png" width="380"></td>
-</tr>
-<tr>
-<td align="center" width="50%"><b>My Files</b><br><img src="screenshots/my_files.png" width="380"></td>
-<td align="center" width="50%"><b>Security Tools Suite</b><br><img src="screenshots/security_tools.png" width="380"></td>
-</tr>
-<tr>
-<td align="center" width="50%"><b>Password Attack Simulator</b><br><img src="screenshots/password_attack_simulator.png" width="380"></td>
-<td align="center" width="50%"><b>Password Generator</b><br><img src="screenshots/password_generator.png" width="380"></td>
-</tr>
-<tr>
-<td align="center" width="50%"><b>File Integrity Verifier</b><br><img src="screenshots/file_integrity_verifier.png" width="380"></td>
-<td align="center" width="50%"><b>Hash Identifier</b><br><img src="screenshots/hash_identifier.png" width="380"></td>
-</tr>
-</table>
+**Login**
+
+![Login page](screenshots/login.png)
+
+**Register**
+
+![Register page](screenshots/register.png)
+
+**Email OTP Verification**
+
+![OTP verification page](screenshots/otp_verification.png)
+
+**OTP Email**
+
+![OTP email received](screenshots/otp_email.png)
+
+**Forgot Password**
+
+![Forgot password page](screenshots/forgot_password.png)
+
+**User Dashboard**
+
+![User dashboard](screenshots/user_dashboard.png)
+
+**Encrypt a File**
+
+![Encrypt file page](screenshots/encrypt_file.png)
+
+**Decrypt a File**
+
+![Decrypt file page](screenshots/decrypt_file.png)
+
+**My Files**
+
+![My files page](screenshots/my_files.png)
+
+**Security Tools Suite**
+
+![Security tools page](screenshots/security_tools.png)
+
+**Password Attack Simulator**
+
+![Password attack simulator](screenshots/password_attack_simulator.png)
+
+**Password Generator**
+
+![Password generator](screenshots/password_generator.png)
+
+**File Integrity Verifier**
+
+![File integrity verifier](screenshots/file_integrity_verifier.png)
+
+**Hash Identifier**
+
+![Hash identifier](screenshots/hash_identifier.png)
 
 ## 🛠 Tech Stack
 
