@@ -64,47 +64,25 @@ CryptVault takes a simpler, zero-trust approach: **it encrypts the file and give
 
 ## 📸 Screenshots
 
-<table>
-<tr>
-<td width="50%" align="center"><b>Login</b><br><img src="screenshots/login_Page.png" width="100%"></td>
-<td width="50%" align="center"><b>Register</b><br><img src="screenshots/register.png" width="100%"></td>
-</tr>
-<tr>
-<td width="50%" align="center"><b>Email OTP Verification</b><br><img src="screenshots/otp_verification.png" width="100%"></td>
-<td width="50%" align="center"><b>OTP Email</b><br><img src="screenshots/otp_email.png" width="100%"></td>
-</tr>
-<tr>
-<td width="50%" align="center"><b>Forgot Password</b><br><img src="screenshots/forgot_password.png" width="100%"></td>
-<td width="50%" align="center"><b>User Dashboard</b><br><img src="screenshots/user_dashboard.png" width="100%"></td>
-</tr>
-<tr>
-<td width="50%" align="center"><b>Encrypt a File</b><br><img src="screenshots/encrypt_file.png" width="100%"></td>
-<td width="50%" align="center"><b>Decrypt a File</b><br><img src="screenshots/decrypt_file.png" width="100%"></td>
-</tr>
-<tr>
-<td width="50%" align="center"><b>My Files</b><br><img src="screenshots/my_files.png" width="100%"></td>
-<td width="50%" align="center"><b>Security Tools Suite</b><br><img src="screenshots/security_tools.png" width="100%"></td>
-</tr>
-<tr>
-<td width="50%" align="center"><b>Password Attack Simulator</b><br><img src="screenshots/password_attack_simulator.png" width="100%"></td>
-<td width="50%" align="center"><b>Password Generator</b><br><img src="screenshots/password_generator.png" width="100%"></td>
-</tr>
-<tr>
-<td width="50%" align="center"><b>File Integrity Verifier</b><br><img src="screenshots/file_integrity_verifier.png" width="100%"></td>
-<td width="50%" align="center"><b>Hash Identifier</b><br><img src="screenshots/hash_identifier.png" width="100%"></td>
-</tr>
-</table>
+| **Login**<br>![Login\|256](screenshots/login_Page.png)                                                    | **Register**<br>![Register\|254](screenshots/Register_Page.png)                     |
+| --------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
+| **Email OTP Verification**<br>![Email OTP Verification](screenshots/Registration_otp.png)                 | **OTP Email**<br>![OTP Email](screenshots/otp_email.png)                            |
+| **Forgot Password**<br>![Forgot Password\|324](screenshots/Forgot_Page.png)                               | **User Dashboard**<br>![User Dashboard\|249](screenshots/user_dashboard.png)        |
+| **Encrypt a File**<br>![Encrypt a File\|305](screenshots/Encryption_Page.png)                             | **Decrypt a File**<br>![Decrypt a File\|221](screenshots/Decryption_Page.png)       |
+| **My Files**<br>![My Files](screenshots/My_File.png)                                                      | **Security Tools Suite**<br>![Security Tools Suite](screenshots/security_tools.png) |
+| **Password Attack Simulator**<br>![Password Attack Simulator](screenshots/Password_Attack_Simulation.png) | **Password Generator**<br>![Password Generator](screenshots/password_generator.png) |
+| **File Integrity Verifier**<br>![File Integrity Verifier](screenshots/File_Integrity.png)                 | **Hash Identifier**<br>![Hash Identifier](screenshots/hash_identifier.png)          |
 
 ## 🛠 Tech Stack
 
-| Layer | Technology |
-|---|---|
-| Language | Python 3 |
-| GUI | CustomTkinter |
-| Encryption | `cryptography` (Fernet — AES-128-CBC + HMAC-SHA256) |
-| Password Hashing | `bcrypt` |
-| Database | SQLite |
-| Email / OTP Delivery | `smtplib` |
+| Layer                | Technology                                          |
+| -------------------- | --------------------------------------------------- |
+| Language             | Python 3                                            |
+| GUI                  | CustomTkinter                                       |
+| Encryption           | `cryptography` (Fernet — AES-128-CBC + HMAC-SHA256) |
+| Password Hashing     | `bcrypt`                                            |
+| Database             | SQLite                                              |
+| Email / OTP Delivery | `smtplib`                                           |
 
 ## 📂 Project Structure
 

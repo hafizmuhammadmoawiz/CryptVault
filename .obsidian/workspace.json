@@ -190,6 +190,8 @@
   },
   "active": "9089288c8a9cb23c",
   "lastOpenFiles": [
+    "screenshots/File_Integrity.png",
+    "README.md",
     "screenshots/User_Dashboard.png",
     "screenshots/Security_Tools.png",
     "screenshots/Registration_OTP.png",
@@ -199,7 +201,6 @@
     "screenshots/OTP_Email.png",
     "screenshots/My_File.png",
     "screenshots/login_Page.png",
-    "screenshots/HASH_Identifier.png",
-    "screenshots/Forgot_Page.png"
+    "screenshots/HASH_Identifier.png"
   ]
 }
