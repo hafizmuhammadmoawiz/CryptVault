@@ -64,33 +64,47 @@ CryptVault takes a simpler, zero-trust approach: **it encrypts the file and give
 
 ## 📸 Screenshots
 
-![Login](./SS/login_Page.jpg)
+### 🔐 Login
+![Login](https://raw.githubusercontent.com/hafizmuhammadmoawiz/CryptVault/master/SS/login_Page.jpg)
 
-![Register](./SS/Register_Page.jpg)
+### 📝 Register
+![Register](https://raw.githubusercontent.com/hafizmuhammadmoawiz/CryptVault/master/SS/Register_Page.jpg)
 
-![Email OTP Verification](./SS/Registration_OTP.jpg)
+### 📧 Email OTP Verification
+![Email OTP Verification](https://raw.githubusercontent.com/hafizmuhammadmoawiz/CryptVault/master/SS/Registration_OTP.jpg)
 
-![OTP Email](./SS/OTP_Email.jpg)
+### ✉️ OTP Email
+![OTP Email](https://raw.githubusercontent.com/hafizmuhammadmoawiz/CryptVault/master/SS/OTP_Email.jpg)
 
-![Forgot Password](./SS/Forgot_Page.jpg)
+### 🔑 Forgot Password
+![Forgot Password](https://raw.githubusercontent.com/hafizmuhammadmoawiz/CryptVault/master/SS/Forgot_Page.jpg)
 
-![User Dashboard](./SS/User_Dashboard.jpg)
+### 🖥️ User Dashboard
+![User Dashboard](https://raw.githubusercontent.com/hafizmuhammadmoawiz/CryptVault/master/SS/User_Dashboard.jpg)
 
-![Encrypt a File](./SS/Encryption_Page.jpg)
+### 🔒 Encrypt a File
+![Encrypt a File](https://raw.githubusercontent.com/hafizmuhammadmoawiz/CryptVault/master/SS/Encryption_Page.jpg)
 
-![Decrypt a File](./SS/Decryption_Page.jpg)
+### 🔓 Decrypt a File
+![Decrypt a File](https://raw.githubusercontent.com/hafizmuhammadmoawiz/CryptVault/master/SS/Decryption_Page.jpg)
 
-![My Files](./SS/My_File.jpg)
+### 📁 My Files
+![My Files](https://raw.githubusercontent.com/hafizmuhammadmoawiz/CryptVault/master/SS/My_File.jpg)
 
-![Security Tools Suite](./SS/Security_Tools.jpg)
+### 🛡️ Security Tools Suite
+![Security Tools Suite](https://raw.githubusercontent.com/hafizmuhammadmoawiz/CryptVault/master/SS/Security_Tools.jpg)
 
-![Password Attack Simulator](./SS/Password_Attack_Simulation.jpg)
+### 🔨 Password Attack Simulator
+![Password Attack Simulator](https://raw.githubusercontent.com/hafizmuhammadmoawiz/CryptVault/master/SS/Password_Attack_Simulation.jpg)
 
-![Password Generator](./SS/Password_Generator.jpg)
+### 🔐 Password Generator
+![Password Generator](https://raw.githubusercontent.com/hafizmuhammadmoawiz/CryptVault/master/SS/Password_Generator.jpg)
 
-![File Integrity Verifier](./SS/File_Integrity.jpg)
+### 🧬 File Integrity Verifier
+![File Integrity Verifier](https://raw.githubusercontent.com/hafizmuhammadmoawiz/CryptVault/master/SS/File_Integrity.jpg)
 
-![Hash Identifier](./SS/HASH_Identifier.jpg)
+### 🔍 Hash Identifier
+![Hash Identifier](https://raw.githubusercontent.com/hafizmuhammadmoawiz/CryptVault/master/SS/HASH_Identifier.jpg)
 
 ## 🛠 Tech Stack
 
