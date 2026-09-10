@@ -64,34 +64,92 @@ CryptVault takes a simpler, zero-trust approach: **it encrypts the file and give
 
 ## 📸 Screenshots
 
-![Login](./SS/login_Page.jpg)
+<table>
+<tr>
+<td width="50%" align="center">
+<b>Login</b><br>
+<img src="SS/login_Page.jpg" width="100%">
+</td>
 
-![Register](./SS/Register_Page.jpg)
+<td width="50%" align="center">
+<b>Register</b><br>
+<img src="SS/Register_Page.jpg" width="100%">
+</td>
+</tr>
 
-![Email OTP Verification](./SS/Registration_OTP.jpg)
+<tr>
+<td width="50%" align="center">
+<b>Email OTP Verification</b><br>
+<img src="SS/Registration_OTP.jpg" width="100%">
+</td>
 
-![OTP Email](./SS/OTP_Email.jpg)
+<td width="50%" align="center">
+<b>OTP Email</b><br>
+<img src="SS/OTP_Email.jpg" width="100%">
+</td>
+</tr>
 
-![Forgot Password](./SS/Forgot_Page.jpg)
+<tr>
+<td width="50%" align="center">
+<b>Forgot Password</b><br>
+<img src="SS/Forgot_Page.jpg" width="100%">
+</td>
 
-![User Dashboard](./SS/User_Dashboard.jpg)
+<td width="50%" align="center">
+<b>User Dashboard</b><br>
+<img src="SS/User_Dashboard.jpg" width="100%">
+</td>
+</tr>
 
-![Encrypt a File](./SS/Encryption_Page.jpg)
+<tr>
+<td width="50%" align="center">
+<b>Encrypt a File</b><br>
+<img src="SS/Encryption_Page.jpg" width="100%">
+</td>
 
-![Decrypt a File](./SS/Decryption_Page.jpg)
+<td width="50%" align="center">
+<b>Decrypt a File</b><br>
+<img src="SS/Decryption_Page.jpg" width="100%">
+</td>
+</tr>
 
-![My Files](./SS/My_File.jpg)
+<tr>
+<td width="50%" align="center">
+<b>My Files</b><br>
+<img src="SS/My_File.jpg" width="100%">
+</td>
 
-![Security Tools Suite](./SS/Security_Tools.jpg)
+<td width="50%" align="center">
+<b>Security Tools Suite</b><br>
+<img src="SS/Security_Tools.jpg" width="100%">
+</td>
+</tr>
 
-![Password Attack Simulator](./SS/Password_Attack_Simulation.jpg)
+<tr>
+<td width="50%" align="center">
+<b>Password Attack Simulator</b><br>
+<img src="SS/Password_Attack_Simulation.jpg" width="100%">
+</td>
 
-![Password Generator](./SS/Password_Generator.jpg)
+<td width="50%" align="center">
+<b>Password Generator</b><br>
+<img src="SS/Password_Generator.jpg" width="100%">
+</td>
+</tr>
 
-![File Integrity Verifier](./SS/File_Integrity.jpg)
+<tr>
+<td width="50%" align="center">
+<b>File Integrity Verifier</b><br>
+<img src="SS/File_Integrity.jpg" width="100%">
+</td>
 
-![Hash Identifier](./SS/HASH_Identifier.jpg)
+<td width="50%" align="center">
+<b>Hash Identifier</b><br>
+<img src="SS/HASH_Identifier.jpg" width="100%">
+</td>
+</tr>
 
+</table>
 ## 🛠 Tech Stack
 
 | Layer                | Technology                                          |
